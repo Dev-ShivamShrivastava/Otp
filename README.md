@@ -18,7 +18,7 @@ Step:2 Add Dependencies
 	        implementation 'com.github.Dev-ShivamShrivastava:otp:1.0.0'
 	}
 
- OtpView Type :- Round, Circle, Line (Called this funcation in composable funccation)
+ OtpView Type :- Round, Circle, Line (Called this funcation in composable funcation)
 
     OtpView(type = OtpViewType.Round){otp->
                      
