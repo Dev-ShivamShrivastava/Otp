@@ -1,5 +1,8 @@
 Simple Compose Otp View
 
+[![](https://jitpack.io/v/Dev-ShivamShrivastava/otp.svg)](https://jitpack.io/#Dev-ShivamShrivastava/otp)
+
+
 Step:1  Add the jitpack repository to your Project setting file
 
 
