@@ -71,7 +71,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             OtpTheme {
                     OtpView(type = OtpViewType.Round){
-                        Toast.makeText(this@MainActivity,it,Toast.LENGTH_SHORT).show()
+
                     }
                 }
             }
