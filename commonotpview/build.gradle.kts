@@ -6,6 +6,18 @@ plugins {
 
 }
 
+publishing {
+    publications {
+        create<MavenPublication>("maven") {
+            groupId = "org.gradle.sample"
+            artifactId = "library"
+            version = "1.1"
+
+            from(components["java"])
+        }
+    }
+}
+
 android {
     namespace = "com.commonotpview"
     compileSdk = 34
@@ -43,8 +55,6 @@ android {
     buildFeatures {
         compose = true
     }
-
-
 
 }
 
