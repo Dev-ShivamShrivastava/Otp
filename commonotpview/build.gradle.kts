@@ -2,21 +2,10 @@ plugins {
 //    id("com.android.application")
     id("com.android.library")
     id("org.jetbrains.kotlin.android")
-    id("maven-publish")
 
 }
 
-publishing {
-    publications {
-        create<MavenPublication>("maven") {
-            groupId = "org.gradle.sample"
-            artifactId = "library"
-            version = "1.1"
 
-            from(components["java"])
-        }
-    }
-}
 
 android {
     namespace = "com.commonotpview"

@@ -4,6 +4,7 @@ plugins {
     id("org.jetbrains.kotlin.android")
 }
 
+
 android {
     namespace = "com.otp"
     compileSdk = 34
