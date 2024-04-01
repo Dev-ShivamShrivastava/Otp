@@ -18,7 +18,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             OtpTheme {
-                    OtpView(type = OtpViewType.Round){
+                    OtpView(type = OtpViewType.Circle){
 
                     }
                 }
