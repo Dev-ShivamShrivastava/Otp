@@ -14,18 +14,23 @@ import com.otp.ui.theme.OtpTheme
 
 class MainActivity : ComponentActivity() {
 
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
             OtpTheme {
-                    OtpView(type = OtpViewType.Round){
+                    OtpView(type = OtpViewType.Circle){
 
                     }
                 }
             }
         }
 
+
+
     override fun onKeyUp(keyCode: Int, event: KeyEvent?): Boolean {
+
         LocalBroadcastManager.getInstance(this).sendBroadcast(
             Intent("key_up").apply {
                 putExtra("event", event)

@@ -1,5 +1,4 @@
 plugins {
-//    id("com.android.application")
     id("com.android.library")
     id("org.jetbrains.kotlin.android")
 
@@ -12,11 +11,9 @@ android {
     compileSdk = 34
 
     defaultConfig {
-//        applicationId = "com.commonotpview"
         minSdk = 24
         targetSdk = 34
-//        versionCode = 1
-//        versionName = "1.0"
+
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
